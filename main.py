@@ -2,11 +2,14 @@
 from logic import *
 
 
-#TODO: create gui window that displlays vote menu
-#TODO: create logic file
+# TODO: create gui window that displays vote menu
+# TODO: create logic file
 
 def main():
-    pass
+    application = QApplication([])
+    window = Logic()
+    window.show()
+    application.exec()
 
 
 if __name__ == '__main__':
